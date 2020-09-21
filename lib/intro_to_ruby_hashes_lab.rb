@@ -3,12 +3,9 @@ def my_hash_creator(key, value)
 {key => value}
 end
 
-def read_from_hash(hash1, key)
+def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash2 = {
-    key => value
-  }
-  hash2(hash1, key)
+  hash[key]
 end
 
 def update_counting_hash(hash, key)
